@@ -1,0 +1,17 @@
+<view class="intro">历史查询</view>
+<view class='container'>
+  <!-- force-use-old-canvas="true" 该代码仅限真机调试使用，上线后注释
+  -->
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ec}}" force-use-old-canvas="true"></ec-canvas>
+  <!--
+  <input placeholder='请输入你的UMAC' class='search-input' value='{{ inputValue }}' bindblur='bindblur'></input>
+  <view class='resultView' hidden='{{ showView }}'>
+    <text class='result'>心率：{{para.HR}} </text>
+    <text class='result'>血氧：{{para.SpO2}} </text>
+    <text class='result'>温度：{{para.Tem}}</text>
+  </view>
+   -->
+  <view class='updata'>
+    <button type="primary" bindtap="updateData">更新近一天的数据</button>
+  </view>
+</view>

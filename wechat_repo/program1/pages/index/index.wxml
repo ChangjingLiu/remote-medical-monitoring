@@ -1,0 +1,25 @@
+
+<form bindsubmit="formBindsubmit" bindreset="formReset">
+  <label>请输入三元组</label>
+  <view style="display:flex;">
+    <label>productKey：</label>
+    <input name="productKey" placeholder="请输入productKey！" />
+  </view>
+  <view style="display:flex;">
+    <label>deviceName：</label>
+    <input name="deviceName" placeholder="请输入deviceName！" />
+  </view>
+  <view style="display:flex;">
+    <label>deviceSecret：</label>
+    <input name="deviceSecret" placeholder="请输入deviceSecret！" password="true" />
+  </view>
+  <view style="display:flex;margin-top:30px;">
+    <button style="width:30%;" formType="submit" >登录</button>
+    <button style="width:30%" formType="reset" >重置</button>
+  </view>
+</form>
+
+<view class="button-sp-are">
+<button class="weui-btn" type="primary" size="mini" bindtap="onClickOpen">发送消息</button>
+<button type="warn" size="mini"  bindtap="onClickOff">关灯</button>
+</view>

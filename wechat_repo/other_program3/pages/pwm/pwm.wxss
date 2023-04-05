@@ -1,0 +1,83 @@
+.container{
+  height: 1200rpx;
+  width:100%;
+  display: flex;
+  align-items :center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.top{
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+}
+.light{
+  height: 20vh;
+  width: 40%;
+  display: flex;
+  flex-direction:column;
+  justify-content:space-around;
+  align-items :center;
+
+
+  background:rgba(7, 1, 20, 0.836);
+  opacity:0.5; 
+  border-radius: 10px; 
+ 
+}
+.myinput{
+ 
+  color:rgb(17, 230, 98);
+  font-weight:900;
+  font-size:45rpx;
+}
+.myText{
+ color:white;
+  font-weight:900;
+  font-size:45rpx;
+}
+.pwm{
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  
+
+  background:rgba(7, 1, 20, 0.836);
+  opacity:0.5; 
+  border-radius: 10px; 
+}
+
+.servo{
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+ 
+
+  background:rgba(7, 1, 20, 0.836);
+  opacity:0.5; 
+  border-radius: 10px; 
+}
+.myinput2{
+  width: 30%;
+  color:rgb(17, 230, 98);
+  font-weight:900;
+  font-size:45rpx;
+  margin: 20rpx;
+}
+.myslider{
+  width: 100%;
+  
+ 
+}
+
+
+image{
+  height: 100%;
+  width: 800rpx;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+  
+}
+

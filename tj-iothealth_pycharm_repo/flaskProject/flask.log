@@ -1,0 +1,3 @@
+
+2021-05-24 14:33:03,750 - INFO - GetServerInfo.py - getUserData_Web - 95 - <Request 'http://127.0.0.1:5000/getUserData_Web?DeviceName=esp8266-2&DAYS=1' [GET]>
+2021-05-24 14:33:03,750 - INFO - GetServerInfo.py - getUserData_Web - 96 - 从数据库中查询的历史信息数量：143 条

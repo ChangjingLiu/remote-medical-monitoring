@@ -1,0 +1,33 @@
+
+<text>PWM输出（0-255）</text>
+<view class = "top">
+
+<view class = "sliderTop">
+<slider wx:for="{{pwmName}}"wx:key = "id" value="{{number}}" min="0" max="9" bindchange="changeProperty" data-property-name="{{item.name}}" >
+</slider>
+</view>
+<view class = "textTop">
+<text>D2={{numberD2}}</text>
+<text>D5={{numberD5}}</text>
+<text>D6={{numberD6}}</text>
+<text>D8={{numberD8}}</text>
+</view>
+</view>
+
+<text>控制私服电机（0-180）</text>
+<view class = "under">
+
+<view class = "sliderunder">
+
+
+<slider wx:for="{{posName}}"wx:key = "id" value="{{number}}" min="0" max="9" bindchange="changeProperty" data-property-name="{{item.name}}" >
+</slider>
+</view>
+<view class = "textunder">
+<text>D2={{numberP2}}</text>
+<text>D5={{numberP5}}</text>
+<text>D6={{numberP6}}</text>
+<text>D8={{numberP8}}</text>
+</view>
+</view>
+

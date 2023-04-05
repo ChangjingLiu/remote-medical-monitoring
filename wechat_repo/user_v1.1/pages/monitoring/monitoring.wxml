@@ -1,0 +1,40 @@
+<page>
+  <view class="intro">实时监测</view>
+  <view class="state">
+    <view class="tr" style="background:#F2F2F2;">
+      <view class='td'>温度：</view>
+      <text class='td'style="text-align: center;">{{temperature}}</text>
+      <view class='td'>°C</view>
+    </view>
+    <view class="tr"style="background:#FAFAFA;">
+      <view class='td'>血氧：</view>
+      <view class='td'style="text-align: center;">{{SpO2}}</view>
+      <view class='td'>%</view>
+    </view>
+    <view class="tr" style="background:#F2F2F2;">
+      <view class='td'>心率：</view>
+      <view class='td'style="text-align: center;">{{heartrate}}</view>
+      <view class='td'>bpm</view>
+    </view>
+    <view class="tr"style="background:#FAFAFA;">
+      <view class='td'>终端状态:</view>
+      <view class='td'style="text-align: center;">{{devicestauts}}</view>
+      <view class='td'></view>
+    </view>
+    <view class="tr" style="background:#F2F2F2;">
+      <view class='td'>更新时间:</view>
+      <view class='td'
+        style="width: 392rpx; height: 50rpx; display: block; box-sizing: border-box; left: NaNrpx; top: NaNrpx text-align: center;">
+        {{timestamp}}</view>
+    </view>
+  </view>
+
+  <view class="Btn-set">
+    <button class="Btn-Monitoring" type="primary" size="mini " bindtap="onClickPub">监测最新数据</button>
+    <view class='sub-unsub'>
+      <button class="Btn-Sub" type="primary" plain="flase" size="mini" bindtap="onClickSub">订阅</button>
+      <button class="Btn-Unsub" type="primary" plain="flase" size="mini" bindtap="onClickunSub">取消订阅</button>
+    </view>
+  </view>
+
+</page>

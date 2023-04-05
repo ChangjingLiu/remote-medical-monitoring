@@ -1,0 +1,29 @@
+.container{
+  height:100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items :center;
+  justify-content: center;
+
+}
+ image{
+  height:1000rpx;
+  width: 400rpx;
+  display: flex;
+  align-items :center;
+}
+switch{
+  margin: 10rpx;
+}
+
+.switch-right{
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 100rpx;
+}
+
+
+
+
+

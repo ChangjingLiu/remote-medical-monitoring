@@ -1,0 +1,11 @@
+button{
+  margin:25px;
+  font-size:10px;
+  width:80%;
+}
+.userinfo-nickname{
+  color :#aaa;
+}
+.button-sp-are{margin-top:60px;
+height:50rpx}
+.weui-btn{margin-top:50px}

@@ -1,0 +1,86 @@
+.myimage{
+ height: 100%;
+ width: 100%;
+ position:fixed; 
+ background-size:100% 100%;
+ z-index: -1;
+
+}
+.container{
+height: 100vh;
+ width: 100%;
+}
+.topview{
+   height: 40%;
+   display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.myLogin{
+  height: 250rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.myLogin image{
+  height: 40vh;
+  width: 220rpx;
+  border-radius:50%;
+}
+.myLogin text{
+color: white;
+
+}
+.myFavorite{
+  padding: 20rpx;
+}
+.news-list{
+min-height: 600rpx;
+padding: 15rpx;
+}
+.news-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+
+}
+.news-item image{
+  height:150rpx;
+  width:230rpx;
+  margin:10rpx;
+}
+.news-item text{
+  width:100%;
+  line-height:60rpx;
+  font-size:50rpx;
+}
+.background{
+
+ color: silver;
+  height: 500rpx;
+}
+input{
+  border: 1rpx solid #328EEB;
+  height: 100rpx;
+  flex-grow: 1;
+}
+.button{
+  margin-top:50rpx;
+  opacity:0.7;
+  
+}
+.background{
+  height: 60%;
+  width: 100%;
+  background-color: black;
+  opacity:0.7;
+}
+.mytext{
+   display: flex;
+  flex-direction: row-reverse;
+  margin:20rpx;
+}

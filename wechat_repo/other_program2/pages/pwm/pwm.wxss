@@ -1,0 +1,59 @@
+
+.top{
+  height: 40vh;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+
+}
+.sliderTop{
+  height: 50%;
+  width: 80%;
+  display: flex;
+  flex-direction:column;
+  margin-left: 20rpx;
+   margin-top: 10rpx;
+
+}
+.textTop{
+   height: 300rpx;
+   width: 20%;
+  display: flex;
+  flex-direction:column;
+  margin-top: 15rpx;
+}
+
+.under{
+  height:35vh;
+  width: 100%;
+  display: flex;
+  flex-direction:row;
+  
+}
+.sliderunder{
+  height: 50%;
+  width: 80%;
+  display: flex;
+  flex-direction:column;
+  margin-left: 20rpx;
+   margin-top: 15rpx;
+
+}
+.textunder{
+   height: 300rpx;
+   width: 20%;
+  display: flex;
+  flex-direction:column;
+  margin-top: 10rpx;
+}
+
+text{
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+   margin-top: 20rpx;
+}
+slider{
+ height: 50rpx; 
+}
+

@@ -1,0 +1,19 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/charts/scrollline/scrollline",
+    "pages/charts/radar/radar",
+    "pages/charts/line/line",
+    "pages/charts/column/column",
+    "pages/charts/pie/pie",
+    "pages/charts/ring/ring",
+    "pages/charts/area/area"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "wxCharts Demo",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

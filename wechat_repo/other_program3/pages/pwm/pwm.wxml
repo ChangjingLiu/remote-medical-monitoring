@@ -1,0 +1,33 @@
+
+<image  src="../../images/background.jpg"mode="aspectFill"></image>
+<view class = "container">
+<view class = "top">
+
+<!-----------------复制这一片--------------->
+<view class = "light">
+<input class = "myinput" input type = "text" placeholder = "{{a0}}" bindinput = "a0">
+</input>
+<text class = "myText">{{light}}</text>
+</view>
+<!-----------------复制这一片--------------->
+
+
+<view class = "light">
+<input class = "myinput" type = "text" placeholder = " {{wendu}}" bindinput = "wendu"></input>
+<text class = "myText">{{currentTemperature}}℃</text>
+</view>
+</view>
+<view class = "pwm">
+<view class = "myslider">
+<input class = "myinput2" type = "text" placeholder = "{{pwm}}" bindinput = "pwm"></input>
+<slider bindchange="sliderchange" min="0" max="9"  show-value data-property-name="PWM"/>
+</view>
+</view>
+<view class = "servo">
+<view class = "myslider">
+<input class = "myinput2" type = "text" placeholder = "{{servo}}" bindinput = "servo"></input>
+<slider  bindchange="sliderchange" min="0" max="9"show-value, data-property-name="Servo" />
+</view>
+</view>
+</view>
+

@@ -1,0 +1,14 @@
+
+<view class='container'>
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ec}}"></ec-canvas>
+  <!--
+  <input placeholder='请输入你的UMAC' class='search-input' value='{{ inputValue }}' bindblur='bindblur'></input>
+  <view class='resultView' hidden='{{ showView }}'>
+    <text class='result'>心率：{{para.HR}} </text>
+    <text class='result'>血氧：{{para.SpO2}} </text>
+    <text class='result'>温度：{{para.Tem}}</text>
+  </view>
+   -->
+   <button type="primary" bindtap="updateData">更新近一天的数据</button>
+</view>
+

@@ -1,0 +1,46 @@
+.intro {
+  margin: 5%;
+  text-align: center;
+}
+.state{
+  margin-bottom: 20%;
+  margin-top:20%;
+}
+.tr {
+  display: flex;  
+  text-align: center;
+  margin-left:15%;
+  margin-right:15%;
+}
+.td {
+  margin: 1%;
+  width: 35%;
+  text-align: left;
+  font-size: 15px;
+}
+.Btn-set{
+  position:static;
+  bottom:10px;
+}
+/*按钮*/
+.Btn-Monitoring{
+  margin-left:15%;
+  margin-right:15%;
+  font-size: 12px;
+}
+.sub-unsub{
+  display:flex;
+  margin-top:5%;
+  font-size: 12px;
+}
+.Btn-Sub{
+  margin-left:15%;
+  margin-right:5%;
+  width: 50%;
+  font-size: 12px;
+}
+
+.Btn-Unsub{
+  margin-right:15%;
+  width: 50%;
+}

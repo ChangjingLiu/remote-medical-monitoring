@@ -1,0 +1,33 @@
+
+<image class='myimage' src="../../images/timg.jpg" mode="aspectFill"></image>
+
+<view class = "container">
+<view class = "topview">
+<view class = "myLogin">
+
+
+<block wx:if = "{{isLogin}}">
+  <image src = "{{src}}"></image>
+  <text>{{nickName}}</text>
+  </block>
+  <button wx:else  open-type = "getUserInfo"bindgetuserinfo = "getMyInfo">点击登录</button>
+</view>
+</view>
+
+
+<view class = "background">
+
+<text>productKey:{{productKey}}</text>
+<input type = "text" placeholder = "请输入productKey" bindinput = "productKey"></input>
+<text>deviceName:{{deviceName}}</text>
+<input  type = "text" bindinput="deviceName" placeholder="请输入deviceName"/>
+<text>deviceSecret:{{deviceSecret}}</text>
+<input   password type="text"  bindinput="deviceSecret" placeholder="请输入deviceSecret"/>
+<text>pubTopic:{{pubTopic}}</text>
+<input  type="text"  bindinput="pubTopic" placeholder="请输入pubTopic"/>
+
+
+<text class = "mytext"bindtap="help">帮助</text>
+
+</view>
+</view>

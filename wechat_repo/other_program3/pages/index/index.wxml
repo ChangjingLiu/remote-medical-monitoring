@@ -1,0 +1,11 @@
+<image class = "myimage" src="../../images/background1.jpg"mode="aspectFill"></image>
+<view class = "container">
+<image class = "image"src="/images/esp8266.png"></image>
+
+<view class = "switch-right">
+<view wx:for="{{rightIOname}}"wx:key = "id" class = "switch-name">
+<switch bindchange="switchchange"data-property-name="{{item.name}}"></switch>
+<input type = "text" placeholder = "{{item.name}}" bindinput = "productKey"></input>
+</view>
+</view>
+</view>

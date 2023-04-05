@@ -1,0 +1,4 @@
+<view class="container">
+  <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ec}}"></ec-canvas>
+  <button type="primary" bindtap="updateData">更新数据</button>
+</view>

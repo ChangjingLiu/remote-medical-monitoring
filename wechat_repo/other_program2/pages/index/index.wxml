@@ -1,0 +1,10 @@
+
+
+<view class = "container">
+
+<image src="/images/esp8266.jpg"></image>
+
+<view class = "switch-right">
+<switch wx:for="{{rightIOname}}"wx:key = "id" bindchange="switchchange"data-property-name="{{item.name}}">{{item.name}}</switch>
+</view>
+</view>

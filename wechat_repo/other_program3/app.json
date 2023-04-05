@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/about/about",
+    "pages/pwm/pwm"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "小程序",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false,
+    "navigationStyle":"custom" 
+  },
+
+  "tabBar": {
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "IO",
+        "iconPath": "images/I.jpg",
+        "selectedIconPath": "images/O.jpg"
+      },
+      {
+        "pagePath": "pages/pwm/pwm",
+        "text": "监测",
+        "iconPath": "images/P1.jpg",
+        "selectedIconPath": "images/P2.jpg"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "我",
+        "iconPath": "images/00.png",
+        "selectedIconPath": "images/11.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap41.json"
+}

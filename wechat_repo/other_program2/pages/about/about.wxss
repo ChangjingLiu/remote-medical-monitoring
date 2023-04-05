@@ -1,0 +1,66 @@
+.container{
+ height: 400rpx;
+ width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  position:fixed; 
+background-size:100% 100%;
+z-index: -1;
+
+}
+.myLogin{
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+.myLogin image{
+  height: 220rpx;
+  width: 220rpx;
+  border-radius:50%;
+}
+.myLogin text{
+color: white;
+
+}
+.myFavorite{
+  padding: 20rpx;
+}
+.news-list{
+min-height: 600rpx;
+padding: 15rpx;
+}
+.news-item{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+
+}
+.news-item image{
+  height:150rpx;
+  width:230rpx;
+  margin:10rpx;
+}
+.news-item text{
+  width:100%;
+  line-height:60rpx;
+  font-size:50rpx;
+}
+.background{
+
+ color: silver;
+  height: 500rpx;
+}
+input{
+  border: 1rpx solid #328EEB;
+  height: 100rpx;
+  flex-grow: 1;
+}
+.button{
+  margin-top:50rpx;
+  
+}
