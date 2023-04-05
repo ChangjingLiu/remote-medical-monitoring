@@ -38,3 +38,6 @@ platform is realized.
 </div>
 
 ## Part 3: Cloud Platform
+<div align=center><img width="500" src="image/aliyun.png"/></div>
+
+## Part 4:
