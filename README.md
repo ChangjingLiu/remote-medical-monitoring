@@ -38,6 +38,8 @@ platform is realized.
 </div>
 
 ## Part 3: Cloud Platform
-<div align=center><img width="500" src="image/aliyun.png"/></div>
+<div align="center">
+     <img src="image/aliyun.png" height="300"/> <img src="image/cloud_server.png" height="200"/>
+</div>
 
 ## Part 4:
