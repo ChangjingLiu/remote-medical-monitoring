@@ -33,7 +33,8 @@ platform is realized.
 <div align=center><img width="500" src="image/overall.png"/></div>
 
 ## Part 2: Terminal Device
-<center class="half">
-     <img src="图片链接" width="200"/><img src="图片链接" width="200"/><img src="图片链接" width="200"/>
-</center>
-123
+<div align="center">
+     <img src="image/main_function.png" height="300"/> <img src="image/terminal_device.png" height="200"/>
+</div>
+
+## Part 3: 
