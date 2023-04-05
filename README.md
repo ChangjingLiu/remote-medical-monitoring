@@ -18,19 +18,13 @@ platform is realized.
 * [Part 1: Overall Architecture](#part-1-overall-architecture)
 * [Part 2: Terminal Device](#part-2-terminal-device)
 * [Part 3: Cloud Platform](#part-3-cloud-platform)
-* [Lecture 4: Optimization Pt. 2](#lecture-4-optimization-pt-2)
-* [Lecture 5: Optimization Pt. 3](#lecture-5-optimization-pt-3)
-* [WordNet](#wordnet)
-* [Seam Carving](#seam-carving)
-* [Baseball Elimination](#baseball-elimination)
-* [Boggle](#boggle)
-* [Burrows Wheeler](#burrows-wheeler)
+* [Part 4: Client](#part-4-client)
 * [Contact](#contact)
 <!-- * [License](#license) -->
 
 
 ## Part 1: Overall Architecture
-<div align=center><img width="500" src="image/overall.png"/></div>
+<div align=center><img width="400" src="image/overall.png"/></div>
 
 ## Part 2: Terminal Device
 <div align="center">
@@ -39,7 +33,8 @@ platform is realized.
 
 ## Part 3: Cloud Platform
 <div align="center">
-     <img src="image/aliyun.png" height="300"/> <img src="image/cloud_server.png" height="200"/>
+     <img src="image/aliyun.png" height="150"/> <img src="image/cloud_server.png" height="200"/>
 </div>
 
-## Part 4:
+## Part 4: Client
+
