@@ -16,7 +16,7 @@ platform is realized.
 (5) Finally, the experiment of each part verifies the feasibility of the whole system
 ## Table of Contents
 * [Part 1: Overall Architecture](#part-1-overall-architecture)
-* [Lecture 2: Dynamics Discretization and Stability](#lecture-2-dynamics-discretization-and-stability)
+* [Part 2: Terminal Device](#part-2-terminal-device)
 * [Lecture 3: Optimization Pt. 1](#lecture-3-optimization-pt-1)
 * [Lecture 4: Optimization Pt. 2](#lecture-4-optimization-pt-2)
 * [Lecture 5: Optimization Pt. 3](#lecture-5-optimization-pt-3)
@@ -30,5 +30,10 @@ platform is realized.
 
 
 ## Part 1: Overall Architecture
+<div align=center><img width="500" src="image/overall.png"/></div>
 
-## Lecture 2: Dynamics Discretization and Stability
+## Part 2: Terminal Device
+<center class="half">
+     <img src="图片链接" width="200"/><img src="图片链接" width="200"/><img src="图片链接" width="200"/>
+</center>
+123
