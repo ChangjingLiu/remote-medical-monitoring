@@ -30,8 +30,8 @@ def create_one(time,HR,SpO2,Tem,UMAC):
 '''
 
 def connect_and_subscribe(conn):
-    accessKey = "LTAI5tDdLV81KkdmMJTxqQEN"
-    accessSecret = "gTlk59wqFM64T116x2VsmIJ5I2Apzb"
+    accessKey = ""
+    accessSecret = ""
     consumerGroupId = "DEFAULT_GROUP"
     # iotInstanceId：购买的实例请填写实例ID，公共实例请填空字符串""。
     iotInstanceId = " "

@@ -10,8 +10,8 @@ from logging import FileHandler
 
 app = Flask(__name__)
 
-accessKeyId = 'LTAI5tDdLV81KkdmMJTxqQEN'
-accessSecret = 'gTlk59wqFM64T116x2VsmIJ5I2Apzb'
+accessKeyId = ''
+accessSecret = ''
 region = 'cn-shanghai'
 client = AcsClient(accessKeyId, accessSecret, region)
 
