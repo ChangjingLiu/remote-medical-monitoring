@@ -19,22 +19,35 @@ platform is realized.
 * [Part 2: Terminal Device](#part-2-terminal-device)
 * [Part 3: Cloud Platform](#part-3-cloud-platform)
 * [Part 4: Client](#part-4-client)
-* [Contact](#contact)
 <!-- * [License](#license) -->
 
 
 ## Part 1: Overall Architecture
+The system includes four parts: terminal device, IoT platform, cloud server platform and client.
 <div align=center><img width="400" src="image/overall.png"/></div>
 
+
+
 ## Part 2: Terminal Device
+The terminal equipment is mainly divided into five parts: main control module, temperature module, blood oxygen and heart rate module, display module, and power module.
+
+ESP12-F, as the main control device, communicates with slave devices such as temperature module, blood oxygen and heart rate module, and display module through ports that support I2C protocol. 
 <div align="center">
      <img src="image/main_function.png" height="300"/> <img src="image/terminal_device.png" height="200"/>
 </div>
 
 ## Part 3: Cloud Platform
+Cloud platform includes two parts: IoT platform and cloud server.
+
+This project selects MQTT as the communication method between terminal devices and IoT platforms, as well as the communication method between mobile devices and IoT platforms in the user end.
+The Alibaba Cloud IoT platform only has short-term data storage capabilities, so AMQP protocol is chosen to push IoT platform data to cloud servers for long-term storage.
+
+The cloud server platform mainly consists of two parts: the backend service program and the MySQL cloud database. The backend service program adopts the Nginx+Gunicorn+Flask server framework, and utilizes the HTTPS protocol to receive and process user requests.
+
 <div align="center">
-     <img src="image/aliyun.png" height="150"/> <img src="image/cloud_server.png" height="200"/>
+     <img src="image/aliyun.png" width="400"/> <img src="image/cloud_server.png" width="300"/>
 </div>
 
 ## Part 4: Client
-
+The client built by WeChat mini program mainly provides remote monitoring function for designated patients, which is mainly divided into personal information function page, historical query function page, and real-time monitoring function page
+<div align=center><img width="400" src="image/wechat.png"/></div>
