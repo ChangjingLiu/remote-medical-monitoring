@@ -17,7 +17,7 @@ platform is realized.
 ## Table of Contents
 * [Part 1: Overall Architecture](#part-1-overall-architecture)
 * [Part 2: Terminal Device](#part-2-terminal-device)
-* [Lecture 3: Optimization Pt. 1](#lecture-3-optimization-pt-1)
+* [Part 3: Cloud Platform](#part-3-cloud-platform)
 * [Lecture 4: Optimization Pt. 2](#lecture-4-optimization-pt-2)
 * [Lecture 5: Optimization Pt. 3](#lecture-5-optimization-pt-3)
 * [WordNet](#wordnet)
@@ -37,4 +37,4 @@ platform is realized.
      <img src="image/main_function.png" height="300"/> <img src="image/terminal_device.png" height="200"/>
 </div>
 
-## Part 3: 
+## Part 3: Cloud Platform
