@@ -36,6 +36,9 @@ ESP12-F, as the main control device, communicates with slave devices such as tem
      <img src="image/main_function.png" height="300"/> <img src="image/terminal_device.png" height="200"/>
 </div>
 
+### HR（heart rate）and SpO2 algorithm
+
+
 ## Part 3: Cloud Platform
 Cloud platform includes two parts: IoT platform and cloud server.
 
